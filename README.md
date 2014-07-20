@@ -2,6 +2,12 @@
 
 AngularAMD 是一個讓 AngularJS 能夠使用 requirejs 的工具，支援自定載入第三方模組，例如 [angular-ui](http://angular-ui.github.io)，其中的 UI-Router 幾乎是 AngularJS 必備模組 。
 
+AngularJS 對前端開發來說，至少在快速建模這件事上，大幅提升效率不說，搭配遠端 REST API 的話，幾乎就已經是一個可使用的雛形網站，因此是相當火紅的前端技術。
+
+實際使用上最大的議題，就是如何去組織程式架構。一般來說可能有幾種方式：使用 Grunt 或 Gulp 在開發階段進行整合編譯；使用 RequireJS 在前端整合載入程序；最後就是這兩種整合使用。
+
+由於 AngularJS 並非符合 AMD（= Asynchronous Module Definition） API 的架構，因此套用 RequireJS 不太容易，有人就開發了這個 AngularAMD，提供了讓兩者方便整合的機制。
+
 安裝
 ==========
 

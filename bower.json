@@ -1,0 +1,30 @@
+{
+  "name": "AngularJS Startup",
+  "version": "0.0.1",
+  "authors": [
+    "wastemobile <wastemobile@me.com>"
+  ],
+  "keywords": [
+    "angularjs"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.20",
+    "angular-route": "~1.2.20",
+    "angular-animate": "~1.2.20",
+    "angular-mocks": "~1.2.20",
+    "angular-ui-bootstrap-bower": "~0.11.0",
+    "requirejs": "~2.1.14",
+    "requirejs-plugins": "~1.0.2",
+    "angularAMD": "~0.1.1",
+    "angular-ui-router": "~0.2.10",
+    "bootstrap": "~3.2.0"
+  }
+}
