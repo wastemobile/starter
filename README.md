@@ -69,9 +69,9 @@ define(['angularAMD'], function (angularAMD) {
 
 ps. 因此使用這個方式，就等同于把整個 HTML 都交給 AngularJS 管理，而無法採用在區塊標籤中整合使用 AngularJS 的模式？
 
-### On-Demand Loading of Controllers
+### 自定控制器的載入
 
-Use `angularAMD.route` when configuring routes using `$routeProvider` to enable on-demand loading of controllers:
+使用 `$routeProvider` 組織 routes（場景轉換）時，搭配 `angularAMD.route` 來指定載入不同的控制器：
 
 ```Javascript
 app.config(function ($routeProvider) {
